@@ -1,0 +1,158 @@
+    /* ===importing google font=== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+    /* ===css reset start=== */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}    
+
+    /* ===css reset end === */
+
+
+     /* === general styling start === */
+
+
+     html{
+        font-size: 10px;
+    }
+    
+    section{
+        margin:5rem 2rem;
+    }
+
+    body{
+        background-color: hsl(0, 0%, 95%);
+    }
+   
+
+    /* === general styling end  === */
+
+    /* ===typography start=== */
+
+
+    h1{
+        color: hsl(0, 0%, 95%);
+        font-weight: 700;
+        font-family: 'Big Shoulders Display', cursive;
+        text-transform: uppercase;
+        font-size: 3rem;
+
+    }
+    p{
+        /* font-size: 15px; */
+        color: hsla(0, 0%, 100%, 0.75);
+        font-weight: 400;
+        font-family: 'Lexend Deca', sans-serif;
+    
+    
+    }
+
+    /* ===typography end=== */
+
+
+    /* ===card section start=== */
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   align-items: flex-start; 
+   padding: 0px 20px;
+height:35rem; 
+
+}
+
+
+#column-1{
+background-color: hsl(31, 77%, 52%);
+
+border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+#column-2{
+    background-color:hsl(184, 100%, 22%);
+    
+}
+#column-3{
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    
+}
+
+
+
+    /* ===card section end=== */
+
+
+    /* ===button start === */
+
+ .btn{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem; 
+    font-family: 'Lexend Deca', sans-serif;
+    border-color: white;
+
+} 
+
+#btn-1{
+      color:hsl(31, 77%, 52%);
+}
+
+#btn-2{
+    color:hsl(184, 100%, 22%);
+}
+#btn-3{
+    color:hsl(179, 100%, 13%);
+    
+}
+    /* ===button end  === */
+
+
+
+    /* === attribution start === */
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    /* === attribution end === */
+
+
+    /* === responsove design start === */
+
+@media screen and (min-width:376px) {
+
+  
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+section{
+    margin:0rem 0rem;
+}
+#column-1{
+width:25%;
+}
+#column-2{
+    width:25%;
+}
+#column-3{
+    width:25%;
+}
+
+}
+
+    /* === responsove design end === */
+
+
