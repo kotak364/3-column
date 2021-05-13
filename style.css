@@ -114,15 +114,6 @@ border-radius: 0.5rem 0.5rem 0rem 0rem;
     /* ===button end  === */
 
 
-
-    /* === attribution start === */
-
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-    /* === attribution end === */
-
-
     /* === responsove design start === */
 
 @media screen and (min-width:400px) {
