@@ -23,12 +23,13 @@
     }
     
     section{
-        margin:5rem 2rem;
+        margin:5rem 6rem;
     }
 
     body{
         background-color: hsl(0, 0%, 95%);
     }
+    
    
 
     /* === general styling end  === */
@@ -47,12 +48,12 @@
     p{
         /* font-size: 15px; */
         color: hsla(0, 0%, 100%, 0.75);
-        font-weight: 400;
         font-family: 'Lexend Deca', sans-serif;
         /* border:2px solid black;  */
         /* text-align: justify; */
         max-width:70%;
         line-height: 1.3rem;
+        font-size:1.3rem; 
     
     
     }
@@ -77,14 +78,19 @@ height:35rem;
 background-color: hsl(31, 77%, 52%);
 border-radius: 0.5rem 0.5rem 0rem 0rem;
 
+
 }
 #column-2{
     background-color:hsl(184, 100%, 22%);
+
+
     
 }
 #column-3{
     background-color:hsl(179, 100%, 13%);
 border-radius: 0rem 0rem 0.5rem 0.5rem;
+
+
     
 }
 
