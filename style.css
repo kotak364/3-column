@@ -12,6 +12,21 @@
 
 /* ===css reset end === */
 
+/* ===css variable start === */
+:root{
+  --color-1:hsl(0, 0%, 95%);
+  --color-2:hsla(0, 0%, 100%, 0.75);
+  --color-3:hsl(31, 77%, 52%);
+  --color-4: hsl(184, 100%, 22%);
+  --color-5: hsl(179, 100%, 13%);
+  --color-6: white;
+
+
+}
+
+
+/* ===css variable end === */
+
 /* === general styling start === */
 
 html {
@@ -23,7 +38,7 @@ section {
 }
 
 body {
-  background-color: hsl(0, 0%, 95%);
+  background-color:var(--color-1);
 }
 
 /* === general styling end  === */
@@ -31,14 +46,14 @@ body {
 /* ===typography start=== */
 
 h1 {
-  color: hsl(0, 0%, 95%);
+  color: var(--color-1);
   font-weight: 700;
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
   font-size: 3rem;
 }
 p {
-  color: hsla(0, 0%, 100%, 0.75);
+  color: var(--color-2);
   font-family: "Lexend Deca", sans-serif;
   max-width: 70%;
   line-height: 1.3rem;
@@ -59,14 +74,14 @@ p {
 }
 
 #column-1 {
-  background-color: hsl(31, 77%, 52%);
+  background-color: var(--color-3);
   border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 #column-2 {
-  background-color: hsl(184, 100%, 22%);
+  background-color: var(--color-4);
 }
 #column-3 {
-  background-color: hsl(179, 100%, 13%);
+  background-color: var(--color-5);
   border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
 
@@ -75,7 +90,7 @@ p {
 /* ===button start === */
 
 .btn {
-  background-color: hsl(0, 0%, 95%);
+  background-color: var(--color-1);
   border-radius: 1.5rem;
   padding: 1rem 2rem;
   font-family: "Lexend Deca", sans-serif;
@@ -84,37 +99,37 @@ p {
 }
 
 #btn-1 {
-  color: hsl(31, 77%, 52%);
-  transition: background-color 500ms;
+  color: var(--color-3);
+  transition: background-color 650ms;
 }
 
 #btn-2 {
-  color: hsl(184, 100%, 22%);
-  transition: background-color  500ms;
+  color: var(--color-4);
+  transition: background-color  650ms;
 
 }
 #btn-3 {
-  color: hsl(179, 100%, 13%);
-  transition: background-color  500ms;
+  color: var(--color-5);
+  transition: background-color  650ms;
 
 }
 
 #btn-1:hover{
-  background-color: hsl(31, 77%, 52%);
-  color:white;
-  border:1px solid white;
+  background-color: var(--color-3);
+  color: var(--color-6);
+  border:1px solid  var(--color-6);
 
 }
 #btn-2:hover{
-  background-color:hsl(184, 100%, 22%);
-  color:white;
-  border:1px solid white;
+  background-color:var(--color-4);
+  color:var(--color-6);
+  border:1px solid var(--color-6);
 
 }
 #btn-3:hover{
-  background-color: hsl(179, 100%, 13%);
-  color:white;
-  border:1px solid white;
+  background-color: var(--color-5);
+  color:var(--color-6);
+  border:1px solid var(--color-6);
 
 }
 /* ===button end  === */
