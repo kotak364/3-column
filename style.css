@@ -148,7 +148,7 @@ p {
 
 /* === responsove design start === */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 38rem) {
   .container {
     display: flex;
     flex-direction: row;
