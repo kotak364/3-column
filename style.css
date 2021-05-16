@@ -14,12 +14,12 @@
 
 /* ===css variable start === */
 :root{
-  --color-1:hsl(0, 0%, 95%);
-  --color-2:hsla(0, 0%, 100%, 0.75);
-  --color-3:hsl(31, 77%, 52%);
-  --color-4: hsl(184, 100%, 22%);
-  --color-5: hsl(179, 100%, 13%);
-  --color-6: white;
+  --light-grey:hsl(0, 0%, 95%);
+  --transparent-white:hsla(0, 0%, 100%, 0.75);
+  --bright-orange:hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --white: white;
 
 
 }
@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  background-color:var(--color-1);
+  background-color:var(--light-grey);
 }
 
 /* === general styling end  === */
@@ -46,14 +46,14 @@ body {
 /* ===typography start=== */
 
 h1 {
-  color: var(--color-1);
+  color: var(--light-grey);
   font-weight: 700;
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
   font-size: 3rem;
 }
 p {
-  color: var(--color-2);
+  color: var(--transparent-white);
   font-family: "Lexend Deca", sans-serif;
   max-width: 70%;
   line-height: 1.3rem;
@@ -74,13 +74,13 @@ p {
 }
 
 #column-1 {
-  background-color: var(--color-3);
+  background-color: var(--bright-orange);
   border-radius: 0.5rem 0.5rem 0rem 0rem;
   
   
 }
 #column-2 {
-  background-color: var(--color-4);
+  background-color: var(--dark-cyan);
 
 
   
@@ -88,7 +88,7 @@ p {
 
 }
 #column-3 {
-  background-color: var(--color-5);
+  background-color: var(--very-dark-cyan);
   border-radius: 0rem 0rem 0.5rem 0.5rem;
   
 
@@ -102,7 +102,7 @@ p {
 /* ===button start === */
 
 .btn {
-  background-color: var(--color-1);
+  background-color: var(--light-grey);
   border-radius: 1.5rem;
   padding: 1rem 2rem;
   font-family: "Lexend Deca", sans-serif;
@@ -111,37 +111,37 @@ p {
 }
 
 #btn-1 {
-  color: var(--color-3);
+  color: var(--bright-orange);
   transition: background-color 650ms;
 }
 
 #btn-2 {
-  color: var(--color-4);
+  color: var(--dark-cyan);
   transition: background-color  650ms;
 
 }
 #btn-3 {
-  color: var(--color-5);
+  color: var(--very-dark-cyan);
   transition: background-color  650ms;
 
 }
 
 #btn-1:hover{
-  background-color: var(--color-3);
-  color: var(--color-6);
-  border:1px solid  var(--color-6);
+  background-color: var(--bright-orange);
+  color: var(--white);
+  border:1px solid  var(--white);
 
 }
 #btn-2:hover{
-  background-color:var(--color-4);
-  color:var(--color-6);
-  border:1px solid var(--color-6);
+  background-color:var(--dark-cyan);
+  color:var(--white);
+  border:1px solid var(--white);
 
 }
 #btn-3:hover{
-  background-color: var(--color-5);
-  color:var(--color-6);
-  border:1px solid var(--color-6);
+  background-color: var(--very-dark-cyan);
+  color:var(--white);
+  border:1px solid var(--white);
 
 }
 /* ===button end  === */
