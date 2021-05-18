@@ -30,12 +30,9 @@ html {
   font-size: 10px;
 }
 
-section {
-  border:2px solid red;
 
-}
 .container{
-  border:2px solid black;
+  /* border:2px solid black; */
   margin:3rem 3rem;
 
 }
