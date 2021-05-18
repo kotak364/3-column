@@ -13,17 +13,14 @@
 /* ===css reset end === */
 
 /* ===css variable start === */
-:root{
-  --light-grey:hsl(0, 0%, 95%);
-  --transparent-white:hsla(0, 0%, 100%, 0.75);
-  --bright-orange:hsl(31, 77%, 52%);
+:root {
+  --light-grey: hsl(0, 0%, 95%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --bright-orange: hsl(31, 77%, 52%);
   --dark-cyan: hsl(184, 100%, 22%);
   --very-dark-cyan: hsl(179, 100%, 13%);
   --white: white;
-
-
 }
-
 
 /* ===css variable end === */
 
@@ -33,12 +30,12 @@ html {
   font-size: 10px;
 }
 
-.container{
+.container {
   margin: 5rem 5rem;
 }
 
 body {
-  background-color:var(--light-grey);
+  background-color: var(--light-grey);
 }
 
 /* === general styling end  === */
@@ -76,25 +73,13 @@ p {
 #column-1 {
   background-color: var(--bright-orange);
   border-radius: 0.5rem 0.5rem 0rem 0rem;
-  
-  
 }
 #column-2 {
   background-color: var(--dark-cyan);
-
-
-  
-  
-
 }
 #column-3 {
   background-color: var(--very-dark-cyan);
   border-radius: 0rem 0rem 0.5rem 0.5rem;
-  
-
-  
-  
-
 }
 
 /* ===card section end=== */
@@ -107,8 +92,7 @@ p {
   padding: 1rem 2rem;
   font-family: "Lexend Deca", sans-serif;
   border-width: 0px;
-  cursor:pointer; 
-  
+  cursor: pointer;
 }
 
 #btn-1 {
@@ -118,32 +102,27 @@ p {
 
 #btn-2 {
   color: var(--dark-cyan);
-  transition: background-color  650ms;
-
+  transition: background-color 650ms;
 }
 #btn-3 {
   color: var(--very-dark-cyan);
-  transition: background-color  650ms;
-
+  transition: background-color 650ms;
 }
 
-#btn-1:hover{
+#btn-1:hover {
   background-color: var(--bright-orange);
   color: var(--white);
-  border:1px solid  var(--white);
-
+  border: 1px solid var(--white);
 }
-#btn-2:hover{
-  background-color:var(--dark-cyan);
-  color:var(--white);
-  border:1px solid var(--white);
-
+#btn-2:hover {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  border: 1px solid var(--white);
 }
-#btn-3:hover{
+#btn-3:hover {
   background-color: var(--very-dark-cyan);
-  color:var(--white);
-  border:1px solid var(--white);
-
+  color: var(--white);
+  border: 1px solid var(--white);
 }
 /* ===button end  === */
 
@@ -155,20 +134,17 @@ p {
     flex-direction: row;
     height: 100vh;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    margin: 0rem 5rem;
   }
 
-
-
-  #column-1 {
+  .card-body{
     width: 30%;
+  }
+  #column-1 {
     border-radius: 0.5rem 0rem 0rem 0.5rem;
   }
-  #column-2 {
-    width: 30%;
-  }
   #column-3 {
-    width: 30%;
     border-radius: 0rem 0.5rem 0.5rem 0rem;
   }
 }
