@@ -30,11 +30,9 @@ html {
   font-size: 10px;
 }
 
-
-.container{
+.container {
   /* border:2px solid black; */
-  margin:3rem 3rem;
-
+  margin: 3rem 3rem;
 }
 
 body {
@@ -137,15 +135,11 @@ p {
     flex-direction: row;
     height: 100vh;
     justify-content: center;
-    margin:0 0;
+    margin: 0 0;
     align-items: center;
-
-
-
-  
   }
 
-  .card-body{
+  .card-body {
     width: 30%;
   }
   #column-1 {
